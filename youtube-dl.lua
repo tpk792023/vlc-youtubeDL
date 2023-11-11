@@ -2,7 +2,7 @@ JSON = require "dkjson" -- load additional json routines
 
 -- Probe function.
 function probe()
-  if vlc.access == "http" or vlc.access == "https" then
+  if vlc.access == "http" or vlc.access == "https://youtu.be/YRWuvT8-4rY?si=4ltcgm9z48u4S_n4" then
     peeklen = 9
     s = ""
     while string.len(s) < 9 do
